@@ -136,6 +136,20 @@ footer {
     font-style: italic;
 }
 
+footer a {
+    margin-left: 0.5rem;
+    color: var(--black);
+    transition: .2s ease;
+}
+
+footer i {
+    transform: skewX(-4deg);
+}
+
+footer a:hover {
+    color: gray;
+}
+
 #task-dialog {
     z-index: 999;
     position: fixed;
@@ -169,12 +183,3 @@ footer {
 #task-submit-button:hover {
     background-color: var(--blue);
 }
-
-/* for confetti */
-
-@keyframes bang {
-    from {
-      transform: translate3d(0,0,0);
-      opacity: 1;
-    }
-  }
