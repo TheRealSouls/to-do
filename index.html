@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A simple to-do list project.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>TO-DO LIST</h1>
+        </header>
+        <nav>
+            <div id="input-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search-input" placeholder="Search note...">
+            </div>
+            <button id="dark-mode"><i class="fa-regular fa-moon fa-2x"></i></button>
+        </nav>
+        <main>
+            <ul id="tasks-list"></ul>
+            <div id="buttons">
+                <button id="add-task" onclick=addTask()><i class="fa-solid fa-plus fa-2x"></i></button>
+            </div>
+        </main>
+        <footer>Made with ❤️ by TheRealSouls</footer>
+        <dialog id="task-dialog">
+            <h3>What is the name of your new task?</h3>
+            <form id="form" action="#">
+                <input type="text" name="task-name" id="task-input" placeholder="Enter task name...">
+                <button type="submit" id="task-submit-button" name="button">Add Task</button>
+            </form>
+        </dialog>
+    </div>
+    <script defer src="https://kit.fontawesome.com/d24d18c78a.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
