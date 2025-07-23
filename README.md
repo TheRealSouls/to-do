@@ -2,7 +2,7 @@
 
 <h1><a href="https://todo-list-task-app.surge.sh/" style="font-size: 5rem;">view live</a></h1>
 
-# to-do list
+# ✅ to-do list
 
 > _"The key to having more time is doing less, and there are two paths to get there: (1) Define a short to-do list and (2) define a not-to-do list."_ - Tim Ferris
 
